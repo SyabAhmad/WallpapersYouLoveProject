@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/wallpalers_you_love"
+            android:text="@string/wallpapers_you_love"
             android:textStyle="bold"
             android:textSize="34sp"
             android:paddingLeft="40dp"
