@@ -1,41 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    tools:isScrollContainer="true"
-    >
+    tools:context=".MainActivity">
+
 
     <LinearLayout
-        android:layout_width="378dp"
-        android:layout_height="86dp"
-        android:background="@color/teal_200"
-        android:textAlignment="center"
-        android:gravity="center_horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024" >
-
-    <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/wallpapers_you_love"
-        android:textStyle="bold"
-        android:padding="20dp"
-        android:textSize="32dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.039" />
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal
+"
+        tools:ignore="UseCompoundDrawables"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wallpalers_you_love"
+            android:textStyle="bold"
+            android:textSize="34sp"
+            android:paddingLeft="40dp"
+            android:paddingStart="40dp"
+            android:paddingBottom="40sp"
+            android:paddingTop="20sp"
+            tools:ignore="RtlSymmetry" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/img"
+            android:paddingBottom="20dp"
+            android:scaleType="fitStart"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="Download Full HD quality"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="TODO"
+            android:paddingBottom="20dp"
+            android:src="@drawable/imgg"
+            android:scaleType="fitStart"
+            tools:ignore="ContentDescription" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="Download Full HD quality"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:paddingBottom="20dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/imggg"
+            tools:ignore="ContentDescription" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="Download Full HD quality"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:paddingBottom="20dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/imga"
+            tools:ignore="ContentDescription" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="Download Full HD quality"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:paddingBottom="20dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/imgb"
+            tools:ignore="ContentDescription" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="Download Full HD quality"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:paddingBottom="20dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/img"
+            tools:ignore="ContentDescription" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="Download Full HD quality"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:paddingBottom="20dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/imgc"
+            tools:ignore="ContentDescription" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="Download Full HD quality"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Picture Coming Soon"
+            android:textSize="32dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            />
 
     </LinearLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
