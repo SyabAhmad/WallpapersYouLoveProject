@@ -141,6 +141,22 @@
             android:paddingTop="20dp"
             android:text="Download Full HD quality"/>
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="TODO"
+            android:paddingBottom="20dp"
+            android:src="@drawable/imgg"
+            android:scaleType="fitStart"
+            tools:ignore="ContentDescription" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="Download Full HD quality"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
